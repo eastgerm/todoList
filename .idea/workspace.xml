@@ -220,6 +220,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -258,12 +259,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557813924968</updated>
       <workItem from="1557813926780" duration="2606000" />
-      <workItem from="1557885284233" duration="6576000" />
+      <workItem from="1557885284233" duration="6825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9182000" />
+    <option name="totallyTimeSpent" value="9431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
