@@ -8,13 +8,12 @@ class InfoLayer extends Component {
     return (
       <div className='info-layer'>
         <div className='today-info'>
-          {moment().format('LL')}
-        </div>
-        <div className='last-todo-info'>
-          못 끝낸 목록
-        </div>
-        <div className='warning-todo-info'>
-          마감 임박 목록
+          <div className='item'>
+            TODAY
+          </div>
+          <div className='item'>
+            {`...${moment().format("YYYY. MM. DD")}`}
+          </div>
         </div>
       </div>
     );

@@ -1,17 +1,17 @@
-import React from 'react';
+import React,{Component} from 'react';
 import './App.scss';
 import InfoLayer from "./layers/InfoLayer";
-import EditLayer from "./layers/EditLayer";
 import TodoLayer from "./layers/TodoLayer";
 
-function App() {
-  return (
-    <div className="App">
-      <InfoLayer/>
-      <TodoLayer/>
-      <EditLayer/>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return(
+      <div className="App">
+        <InfoLayer/>
+        <TodoLayer/>
+      </div>
+    );
+  }
 }
 
 export default App;

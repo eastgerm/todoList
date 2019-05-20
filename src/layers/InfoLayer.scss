@@ -1,18 +1,11 @@
 .info-layer {
-  flex: 1;
-  background-color: red;
+  flex-basis: 200px;
   display: flex;
   flex-direction: column;
+  background-color: #fafafa;
+  padding: 10px;
 
   .today-info {
-
-  }
-
-  .last-todo-info {
-
-  }
-
-  .warning-todo-info {
-
+    font-size: 30px;
   }
 }

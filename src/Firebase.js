@@ -8,11 +8,8 @@ var config = {
   databaseURL: "https://todo-list-463c2.firebaseio.com",
   storageBucket: "todo-list-463c2.appspot.com"
 };
-firebase.initializeApp(config);
 
-// Get a reference to the database service
-var database = firebase.database();
+var fire = firebase.initializeApp(config);
+export default fire;
 
-export const getFireDB = () => {
-  return database.ref('/').once('value',)
-};
+
